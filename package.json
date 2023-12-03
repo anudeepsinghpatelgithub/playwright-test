@@ -1,0 +1,21 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "apiTests": "npx playwright test -g @api",
+    "uiTests": "npx playwright test -g @ui",
+    "uiTests-headed": "npx playwright test -g @ui --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
